@@ -42,7 +42,7 @@ Deleting local tags and pulling from remote...
 Deleted tag '0.0.1' (was 4f40861)
 Deleted tag '0.0.2' (was 3af9fa1)
 Deleted tag '0.0.3' (was a6988d1)
-From https://github.com/mindbody/MBOMarketplaceCore
+From https://github.com/yourteam/yourrepo
  * [new tag]         0.0.1      -> 0.0.1
  * [new tag]         0.0.2      -> 0.0.2
  * [new tag]         0.0.3      -> 0.0.3
