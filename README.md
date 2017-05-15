@@ -2,19 +2,21 @@
 Custom commands for `git` that I use.
 
 ## Installation
-On your home directory, create a `bin` folder:
+Git commands are scripts run by `git`. They must reside in a folder in your path and must be executable by your user. Instead of placing them in `/usr/local/bin` or similar, I recomend placing them inside a `bin` folder in your home directory.
+
+On your home directory, create a `bin` folder (if you don't have one already):
 
 `$ mkdir -p ~/bin`
 
-Add that project to your PATH for the scripts to be executable:
+Add that folder to your PATH for the scripts to be accessible by `git`:
 
 `$ vim ~/.bash_profile`
 
-Add the line:
+Append the line:
 
 `export PATH="$HOME/bin:$PATH"`
 
-Save these scripts to your `~/bin` folder and update permissions to `755`:
+Save the scripts from this repository to `~/bin` and make them executable with `chmod`:
 
 `$ chmod 755 <filename>`
 
