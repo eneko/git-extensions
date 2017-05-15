@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+set -e
+
+echo "Deleting local tags and pulling from remote..."
+git tag -d `git tag`
+git fetch --tags
+echo "Done."
